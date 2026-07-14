@@ -1,0 +1,39 @@
+# OS / Editor files
+.DS_Store
+Thumbs.db
+*.log
+*.swp
+*.swo
+
+# Node / npm (if you add tooling later)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Build / dist outputs
+dist/
+build/
+
+# Cache / temp
+.cache/
+.tmp/
+*.tmp
+
+# Environment / secrets
+.env
+.env.local
+.env.*.local
+
+# Coverage / testing
+coverage/
+*.lcov
+
+# IDE / project settings
+.vscode/
+.idea/
+*.iml
+
+# Misc
+*.bak
+*.old
