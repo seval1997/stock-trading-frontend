@@ -133,3 +133,58 @@
     font-size: 1.25rem;
     font-weight: 600;
 }
+
+
+/* Sidebar items with border */
+.sidebar-item {
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 6px;
+    margin-bottom: 8px;
+    transition: background-color 0.3s ease, border-color 0.3s ease;
+}
+
+.bg-dark .sidebar-item {
+    border-color: rgba(255, 255, 255, 0.2);
+}
+
+.sidebar-item:hover {
+    background-color: rgba(0, 0, 0, 0.05);
+}
+
+.bg-dark .sidebar-item:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+/* Favcon div always visible */
+.favcon_div {
+    width: 40px;
+    /* fixed width for icons */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.menu-icon {
+    font-size: 1.2rem;
+}
+
+/* Menu text div transitions */
+.menutext_div {
+    overflow: hidden;
+    white-space: nowrap;
+    transition: width 0.3s ease, opacity 0.3s ease;
+}
+
+.menutext_div.collapsed {
+    width: 0;
+    opacity: 0;
+}
+
+.menutext_div.expanded {
+    width: auto;
+    opacity: 1;
+}
+
+.menu-text {
+    margin-left: 8px;
+}

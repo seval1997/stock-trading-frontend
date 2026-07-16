@@ -60,7 +60,7 @@ function Sidebar() {
             {/* Menu */}
             <ul className="nav flex-column mb-auto">
                 {menuItems.map((item, index) => (
-                    <li key={index} className="nav-item">
+                    <li key={index} className="nav-item sidebar-item">
                         <a href={item.link} className="nav-link d-flex align-items-center">
                             {/* Favcon div */}
                             <div className="favcon_div">
@@ -73,8 +73,7 @@ function Sidebar() {
 
                             {/* Menu text div */}
                             <div
-                                className={`menutext_div ${collapsed ? "collapsed" : "expanded"
-                                    }`}
+                                className={`menutext_div ${collapsed ? "collapsed" : "expanded"}`}
                             >
                                 <span
                                     className={`menu-text ${theme === "light" ? "text-dark" : "text-light"}`}
