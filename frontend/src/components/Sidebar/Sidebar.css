@@ -1,0 +1,190 @@
+/* Sidebar header */
+.sidebar-header {
+    display: flex;
+    align-items: center;
+    height: 40px;
+}
+
+.sidebar-header .icon {
+    font-size: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: transform 0.3s ease;
+}
+
+.rotate-collapsed {
+    transform: rotate(90deg);
+}
+
+.sidebar-header .title {
+    font-size: 1.25rem;
+    font-weight: 600;
+    transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+/* Menu item layout */
+.nav-link {
+    display: flex;
+    align-items: center;
+    padding: 8px;
+}
+
+/* Favcon div always visible */
+.favcon_div {
+    width: 40px;
+    /* fixed width for icons */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.menu-icon {
+    font-size: 1.2rem;
+}
+
+/* Menu text div transitions */
+.menutext_div {
+    overflow: hidden;
+    white-space: nowrap;
+    transition: width 0.3s ease, opacity 0.3s ease;
+}
+
+.menutext_div.collapsed {
+    width: 0;
+    opacity: 0;
+}
+
+.menutext_div.expanded {
+    width: auto;
+    opacity: 1;
+}
+
+.menu-text {
+    margin-left: 8px;
+}
+
+/* Profile section */
+.profile-section {
+    padding-top: 1rem;
+}
+
+.profile-img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.profile-name {
+    font-weight: 600;
+}
+
+.profile-email {
+    font-size: 0.85rem;
+    opacity: 0.8;
+}
+
+/* Sidebar header layout */
+.sidebar-header {
+    display: flex;
+    align-items: center;
+    height: 40px;
+}
+
+/* Favcon div always visible */
+.favcon_div {
+    width: 40px;
+    /* fixed width for icon column */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.menu-icon {
+    font-size: 1.5rem;
+    transition: transform 0.3s ease;
+}
+
+.rotate-collapsed {
+    transform: rotate(90deg);
+}
+
+/* Title text div transitions */
+.menutext_div {
+    overflow: hidden;
+    white-space: nowrap;
+    transition: width 0.3s ease, opacity 0.3s ease, transform 0.3s ease;
+}
+
+.menutext_div.collapsed {
+    width: 0;
+    opacity: 0;
+    transform: translateX(-10px);
+}
+
+.menutext_div.expanded {
+    width: auto;
+    opacity: 1;
+    transform: translateX(0);
+}
+
+.title {
+    font-size: 1.25rem;
+    font-weight: 600;
+}
+
+
+/* Sidebar items with border */
+.sidebar-item {
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 6px;
+    margin-bottom: 8px;
+    transition: background-color 0.3s ease, border-color 0.3s ease;
+}
+
+.bg-dark .sidebar-item {
+    border-color: rgba(255, 255, 255, 0.2);
+}
+
+.sidebar-item:hover {
+    background-color: rgba(0, 0, 0, 0.05);
+}
+
+.bg-dark .sidebar-item:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+/* Favcon div always visible */
+.favcon_div {
+    width: 40px;
+    /* fixed width for icons */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.menu-icon {
+    font-size: 1.2rem;
+}
+
+/* Menu text div transitions */
+.menutext_div {
+    overflow: hidden;
+    white-space: nowrap;
+    transition: width 0.3s ease, opacity 0.3s ease;
+}
+
+.menutext_div.collapsed {
+    width: 0;
+    opacity: 0;
+}
+
+.menutext_div.expanded {
+    width: auto;
+    opacity: 1;
+}
+
+.menu-text {
+    margin-left: 8px;
+}
