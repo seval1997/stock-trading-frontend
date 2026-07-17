@@ -3,6 +3,7 @@ import { ThemeProvider } from "./context/ThemeContext";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Sidebar from "./components/Sidebar/Sidebar";
 import DashboardHeader from "./components/DashboardHeader/DashboardHeader";
+import Watchlist from "./components/WatchListCard/Watchlist";
 
 function Content() {
     return (
@@ -11,10 +12,8 @@ function Content() {
             <div className="flex-grow-1">
                 <DashboardHeader />
                 <div className="p-4" style={{ marginTop: "60px" }}>
-                    <div className="card p-3">
-                        <h1>Hello World</h1>
-                        <p>This is your dashboard content.</p>
-                    </div>
+                    <h2 className="mb-3">Stock Watchlist</h2>
+                    <Watchlist />
                 </div>
             </div>
         </div>
