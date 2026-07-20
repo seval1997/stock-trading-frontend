@@ -9,7 +9,6 @@
     justify-content: space-between;
     padding: 0 20px;
     z-index: 1000;
-    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
 }
 
 .bg-dark.dashboard-header {
@@ -35,4 +34,14 @@
 
 .header-icon:hover {
     color: #007bff;
+}
+
+/* Header fixed only inside dashboard */
+.dashboard-header {
+    position: sticky;
+    /* stays at top of dashboard */
+    top: 0;
+    width: 100%;
+    /* full width of dashboard-container only */
+    padding: 12px 20px;
 }
