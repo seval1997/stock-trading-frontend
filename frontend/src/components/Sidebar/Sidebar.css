@@ -188,10 +188,3 @@
 .menu-text {
     margin-left: 8px;
 }
-
-.sidebar {
-    margin-top: 60px;
-    /* push below fixed header */
-    z-index: 1100;
-    /* higher than header so hamburger is clickable */
-}

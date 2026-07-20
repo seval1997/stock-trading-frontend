@@ -12,7 +12,7 @@ function DashboardHeader() {
                 }`}
         >
             {/* Left side: Title */}
-            <div className="header-title">Dashboard</div>
+            <div className="header-title"></div>
 
             {/* Right side: Menu icons */}
             <div className="header-menus">

@@ -6,7 +6,7 @@
 
 /* Sidebar fixed on the left */
 .sidebar-container {
-  width: AUTO;
+  width: auto;
   /* fixed width */
   position: auto;
   /* stays fixed */
@@ -21,11 +21,11 @@
   /* scroll if content exceeds */
 }
 
-/* Dashboard content on the right */
+/* Dashboard container */
 .dashboard-container {
   flex-grow: 1;
-  /* same as sidebar width */
+  /* matches sidebar width */
+  position: relative;
   overflow-y: auto;
   background-color: #f8f9fa;
-  /* light background */
 }

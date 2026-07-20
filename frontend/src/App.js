@@ -16,8 +16,8 @@ function Content() {
 
             {/* Dashboard content on the right */}
             <div className="dashboard-container">
-                <DashboardHeader />
-                <div className="p-4" style={{ marginTop: "60px" }}>
+                <div style={{ margin: 0, padding: 0 }}>
+                    <DashboardHeader />
                     <h2 className="mb-3">Stock Watchlist</h2>
                     <Watchlist />
                 </div>
